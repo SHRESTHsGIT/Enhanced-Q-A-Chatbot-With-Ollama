@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Langsmith Tracking
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_PROJECT"] = "Simple Q&A Chatbot With Ollama"
+# os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+# os.environ["LANGCHAIN_TRACING_V2"] = "true"
+# os.environ["LANGCHAIN_PROJECT"] = "Simple Q&A Chatbot With Ollama"
 
 # Prompt Template
 prompt = ChatPromptTemplate.from_messages([
